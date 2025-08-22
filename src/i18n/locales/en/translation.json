@@ -1,0 +1,13 @@
+{
+  "db": {
+    "connected": "Database connection established successfully 🚀",
+    "connection_error": "Unable to connect to the database",
+    "sync_production_warning": "Skipping auto-sync in production. Please use migrations for schema updates.",
+    "models_synced": "Models synced successfully ✅"
+  },
+  "users": {
+    "created": "User created successfully",
+    "not_found": "User not found"
+  },
+  "unknown_error": "An unknown error occurred"
+}

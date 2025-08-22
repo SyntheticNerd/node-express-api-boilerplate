@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:15
+    container_name: pg15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+      - ./downloads:/tmp/downloads
